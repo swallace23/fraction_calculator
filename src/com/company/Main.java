@@ -46,6 +46,8 @@ public class Main {
         Fraction first = new Fraction(parseNum(str), parseDem(str));
         Fraction second = new Fraction(parseNum(str1), parseDem(str1));
 
+
+
         if (operator.equals("add")) {
             first.add(second);
             System.out.println(first);

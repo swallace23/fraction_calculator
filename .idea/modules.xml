@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/elly thing.iml" filepath="$PROJECT_DIR$/elly thing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FractionCalculator.iml" filepath="$PROJECT_DIR$/FractionCalculator.iml" />
     </modules>
   </component>
 </project>
