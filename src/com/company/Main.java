@@ -11,7 +11,6 @@ public class Main {
         Matcher matcher = pattern.matcher(str);
         if (matcher.find()) {
             String string1 = str.substring(0, matcher.start());
-            String string2 = str.substring(matcher.end());
             int num1 = Integer.parseInt(string1);
             return num1;
         } else {
@@ -23,7 +22,6 @@ public class Main {
         Pattern pattern = Pattern.compile("/ *");
         Matcher matcher = pattern.matcher(str);
         if (matcher.find()) {
-            String string1 = str.substring(0, matcher.start());
             String string2 = str.substring(matcher.end());
             int dem1 = Integer.parseInt(string2);
             return dem1;

@@ -1,7 +1,5 @@
 package com.company;
 
-import java.util.Scanner;
-
 public class Fraction {
     private int numerator;
     private int denominator;
